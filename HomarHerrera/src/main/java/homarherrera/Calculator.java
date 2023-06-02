@@ -9,55 +9,55 @@ import java.util.Scanner;
 
 public final class Calculator {
     /**
-     *This is a Javadoc.
+     *This is a empty constructor.
      */
     private Calculator() { }
     /**
-     *This is a Javadoc.
+     *Initial value for the vacations.
      */
     static final int INITIAL_VALUE = 1000;
     /**
-     *This is a Javadoc.
+     *Extra value is the destiny is New York.
      */
     static final int EXTRA_NEWYORK = 600;
     /**
-     *This is a Javadoc.
+     *Extra value is the destiny is Paris.
      */
     static final int EXTRA_PARIS = 500;
     /**
-     *This is a Javadoc.
+     *Max days for apply to the discount.
      */
     static final int MAX_DAY_PROMO = 30;
     /**
-     *This is a Javadoc.
+     *Value of promo or charge if it doesn't meet the condition.
      */
     static final int PROMO = 200;
     /**
-     *This is a Javadoc.
+     * Minimun numbers of travels to apply a discount of 10%.
      */
     static final int MIN_DISC_TRAVS = 4;
     /**
-     *This is a Javadoc.
+     *Maximun travels to apply a discount of 10% or minimun to apply 20.
      */
     static final int LIMIT_DISC_TRAVS = 10;
     /**
-     *This is a Javadoc.
+     *10% of discount.
      */
     static final double MIN_DISC = 0.9;
     /**
-     *This is a Javadoc.
+     *20% of discount.
      */
     static final double MAX_DISC = 0.8;
     /**
-     *This is a Javadoc.
+     *Minimun number of days to apply for a promo.
      */
     static final int DAYS_PROMO = 7;
     /**
-     * This is a Javadoc.
+     * Scanner to read the user inputs.
      */
     private static Scanner input;
     /**
-     * This is a Javadoc.
+     * Main function.
      * @param args
      */
     public static void main(final String[] args) {
